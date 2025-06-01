@@ -14,7 +14,7 @@ storeresult = ''
 app = Flask(__name__)
 
 # Load and preprocess data
-data = pd.read_csv('D:/mlll/tensorflow/Delete1/temp1dait/diabetes.csv')
+data = pd.read_csv('diabetes.csv')
 data[['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']] = data[['Glucose', 'BloodPressure', 'SkinThickness', 'Insulin', 'BMI']].replace(0, np.nan)
 data.fillna(data.mean(), inplace=True)
 
