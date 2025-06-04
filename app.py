@@ -35,8 +35,8 @@ y_pred = model.predict(x_test)
 print()
 
 
-print(f"Model Accuracy: {accuracy_score(y_test, y_pred):.2f}")
-print(f"Model report: {classification_report(y_test, y_pred)}")
+#print(f"Model Accuracy: {accuracy_score(y_test, y_pred):.2f}")
+#print(f"Model report: {classification_report(y_test, y_pred)}")
 
 
 def get_user_input(**dftg):
